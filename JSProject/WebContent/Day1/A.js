@@ -72,8 +72,11 @@ console.log(ban['full-name']); //  동적생성한값을불ㄹ옴
 console.log(ban.full-name); //  full -name 한값
 console.log(ban.full);
 console.log(ban.name);
-var name; 
+//var name; 
 console.log(name); // 언디파인드가안나오고   ''값이나온다 왜그러지 
+
+//http://download.hanbit.co.kr/exam/2065/ 소스코드 
+
 
 
 
