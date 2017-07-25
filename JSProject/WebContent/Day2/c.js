@@ -12,7 +12,7 @@ function f3 (x,y){
 	return x+y;
 }
 function f4 (x,y,z){
-	console.log('f4매개변수갯수 '+ this.length);
+	console.log('f4매개변수갯수 '+ f4.length);
 	return x+y+z;
 }
 f4(1,2,3);
@@ -24,6 +24,16 @@ console.log(f2.length);
 console.log(f3.length);
 console.log(f4.length);
 
+
+// prototype 프로퍼티 
+
+function foo(x,y){
+//	return x+y;
+};
+var foo1 = new foo();
+console.log(foo.name); 
+console.log(foo.prototype);  // 모든 객체는 프로토타입을가지고있다 
+console.log(foo.prototype.constructor); 
 
 
 

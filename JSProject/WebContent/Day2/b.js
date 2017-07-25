@@ -51,7 +51,7 @@ foo2();
 //console.log(foo2);
 
 
-
+//소트
 var arr = [3,2,5,4,8];
 
 arr.sort(function(a,b){
