@@ -66,7 +66,7 @@ var  foo3  = function(a,b,c){
 
 console.dir(foo3)
 
-
+//2교시
 
 
 
