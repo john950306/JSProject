@@ -40,5 +40,5 @@ console.log(student.getName(),student.getHakbun());//1은 이름을안넣고 학
 var student3 = new Student('민요한',23,'T700');
 console.log(student3.getName(),student3.getHakbun(),student3.getAge());
 
-
+console.log(student3.toString());
 
